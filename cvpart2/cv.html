@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV PKL - Rekayasa Perangkat Lunak</title>
+    <style>
+        :root {
+            --primary-color: #000000;
+            --secondary-color: #000000;
+            --text-color: #333;
+            --bg-color: #979797;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+            object-fit: cover;
+            border: 4px #fff;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 5px solid var(--secondary-color);
+            padding-left: 10px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+
+        .skill-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .skill-item {
+            background: #eef2f3;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .project-item {
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .skill-container {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="ft1.jpeg" class="picture">
+
+        <h1>Axel Davan Prayoga</h1>
+        <div class="contact-info">
+            📧 axeldavan28@gmail.com | 📱 0857-7079-8229 | 
+            📍 Mangir Lor, Sendangsari, Pajangan, Bantul, Yogyakarta <br>
+            🔗 <a href="https://github.com/AxelDavan">github.com/AxelDavan</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Data diri</h2>
+        <p>
+            Siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang berdedikasi dan memiliki minat besar dalam pengembangan web. 
+            Memiliki pemahaman kuat dalam alur logika pemrograman backend menggunakan PHP & MySQL serta perancangan antarmuka menggunakan HTML & CSS. 
+            Siap belajar hal baru dan berkontribusi dalam tim profesional melalui program Praktik Kerja Lapangan (PKL).
+        </p>
+    </section>
+
+    <section>
+        <h2>Pendidikan</h2>
+        <div class="project-item">
+            <div class="project-title">SMK [SMKN 1 Sanden]</div>
+            <div>Kompetensi Keahlian: Rekayasa Perangkat Lunak (RPL)</div>
+            <div style="font-style: italic;">2024 - Sekarang</div>
+            <div class="project-title">SMP [SMPN 3 Pandak]</div>
+            <div style="font-style: italic;">2021 - 2024</div>
+            <div class="project-title">SD [SDN Mangir Lor]</div>
+            <div style="font-style: italic;">2016 - 2021</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Keahlian </h2>
+        <div class="skill-container">
+            <div class="skill-item">HTML <span>Dasar - Menengah</span></div>
+            <div class="skill-item">CSS <span>Layouting & Flexbox</span></div>
+            <div class="skill-item">PHP <span>Fundamental & CRUD</span></div>
+            <div class="skill-item">MySQL <span>Database Management</span></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projek Sekolah / Mandiri</h2>
+        <div class="project-item">
+            <div class="project-title">Sistem Informasi Ecommerce Sederhana</div>
+            <p>Membangun aplikasi berbasis web menggunakan <b>PHP Native</b> dan <b>MySQL</b> untuk penilaian membuat web Ecommerce, mencakup fitur Create, Read, Update, dan Delete (CRUD).</p>
+        </div>
+        <div class="project-item">
+            <div class="project-title">Landing Page Portofolio</div>
+            <p>Mendesain dan mengimplementasikan layout responsif menggunakan <b>HTML</b> dan <b>CSS</b> agar tampilan optimal di berbagai perangkat.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Problem Solving (Pemecahan Masalah)</li>
+            <li>Kerja Sama Tim</li>
+            <li>Kemauan Belajar yang Tinggi</li>
+            <li>Kedisiplinan</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - CV Dibuat untuk Keperluan PKL SMK</p>
+    </footer>
+</div>
+
+</body>
+</html>
